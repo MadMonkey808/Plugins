@@ -1,0 +1,9 @@
+name: MadHub
+description: MadHub is a Hub Plugin for Bukkit/Plugin
+main: dev.madmonkey.madhub.Main
+author: MadMonkey
+version: 1.0
+commands:
+  setlobby:
+    usage: /setlobby
+    description: This command is to set spawn to your hub.
