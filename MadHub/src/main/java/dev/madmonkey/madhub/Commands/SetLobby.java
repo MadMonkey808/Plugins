@@ -2,6 +2,7 @@ package dev.madmonkey.madhub.Commands;
 
 import dev.madmonkey.madhub.Main;
 import dev.madmonkey.madhub.Utils.ChatFormat;
+import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -10,6 +11,10 @@ import org.bukkit.entity.Player;
 public class SetLobby implements CommandExecutor {
 
     String prefix = ChatFormat.color("&4MadHub &7| ");
+
+    public SetLobby (Main main){
+        Bukkit.getPluginCommand("setlobby").setExecutor(this);
+    }
 
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
