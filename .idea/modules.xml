@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MadHub/MadHub.iml" filepath="$PROJECT_DIR$/MadHub/MadHub.iml" />
-      <module fileurl="file://$PROJECT_DIR$/StaffAlert/StaffAlert.iml" filepath="$PROJECT_DIR$/StaffAlert/StaffAlert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MadStaff/MadStaff.iml" filepath="$PROJECT_DIR$/MadStaff/MadStaff.iml" />
     </modules>
   </component>
 </project>

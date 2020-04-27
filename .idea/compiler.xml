@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="MadHub" />
+        <module name="MadStaff" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="MadHub" target="1.8" />
+      <module name="MadStaff" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

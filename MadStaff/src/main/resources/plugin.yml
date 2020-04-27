@@ -1,0 +1,9 @@
+name: MadStaff
+main: dev.madmonkey.madstaff.Main
+version: 1.0
+description: MadStaff is a staff plugin
+author: MadMonkey
+commands:
+  sc:
+    usage: /sc <message>
+    description: StaffChat Command

@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MadStaff:jar">
+    <output-path>$PROJECT_DIR$/../AvanlancheMC/Plugins</output-path>
+    <root id="archive" name="MadStaff.jar">
+      <element id="module-output" name="MadStaff" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Versions/spigot-1.14.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Versions/spigot-1.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Versions/BungeeCord.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
