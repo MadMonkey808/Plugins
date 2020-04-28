@@ -1,6 +1,7 @@
 package dev.madmonkey.madstaff;
 
 import dev.madmonkey.madstaff.Commands.StaffChatCommand;
+import dev.madmonkey.madstaff.Listener.WorldeditAlert;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.api.plugin.Plugin;
 
@@ -13,11 +14,19 @@ public class Main extends Plugin {
 
     public void onEnable(){
         getProxy().getPluginManager().registerCommand(this, new StaffChatCommand());
-        getLogger().info("StaffChat has been Enabled!");
+        getProxy().getPluginManager().registerListener(this, new WorldeditAlert());
+        getLogger().info("-=-=-=-=-=-=-=-=-=-=-=-=-=-");
+        getLogger().info("MadStaff made by MadMonkey");
+        getLogger().info("Version: 1.2.1");
+        getLogger().info("-=-=-=-=-=-=-=-=-=-=-=-=-=-");
+
     }
 
     @Override
     public void onDisable() {
-        getLogger().info("StaffChat has been Disabled!");
+        getLogger().info("-=-=-=-=-=-=-=-=-=-=-=-=-=-");
+        getLogger().info("MadStaff made by MadMonkey");
+        getLogger().info("Version: 1.2.1");
+        getLogger().info("-=-=-=-=-=-=-=-=-=-=-=-=-=-");
     }
 }

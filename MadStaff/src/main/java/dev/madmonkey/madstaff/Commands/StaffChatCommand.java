@@ -37,7 +37,7 @@ public class StaffChatCommand extends Command {
                     msg = String.valueOf(msg) + args[i] + " ";
                 for (ProxiedPlayer staff : BungeeCord.getInstance().getPlayers()) {
                     if (staff.hasPermission("bungee.staff"))
-                        staff.sendMessage(new TextComponent(prefix + ChatColor.BLUE + "[" + p.getServer().getInfo().getName() + ChatColor.BLUE + "]" + p.getDisplayName() + ChatColor.AQUA + ": " + msg));
+                        staff.sendMessage(new TextComponent(prefix + ChatColor.BLUE + "[" + p.getServer().getInfo().getName() + ChatColor.BLUE + "] " + p.getDisplayName() + ChatColor.AQUA + ": " + msg));
                 }
             } else {
                 p.sendMessage(new TextComponent(prefix + ChatColor.RED + "You do not have permissions to execute this command!"));
